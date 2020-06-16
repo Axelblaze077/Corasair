@@ -1,0 +1,484 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size:100% ;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+
+nav .navbar-brand{
+    margin: 0 10rem;
+}
+
+nav .nav-link{
+    margin: 0 1rem;
+}
+
+.logo{
+    display: inline;
+    padding: 0 !important;
+    margin: 0;
+    width: ;
+    
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+.navbar-brand img{
+    width: 10rem;
+}
+
+.header{
+    height: 100vh;
+    background-color: #CCCCCC !important;
+    position: relative;
+    background: url("../images/hero_1.jpg") no-repeat left, url("../images/hero_2.jpg") no-repeat right;
+    background-size: contain;
+
+}
+
+
+
+.header .main{
+    text-align: center;
+}
+
+.header .main .header_content{
+    padding-top: 10rem;
+    color: white;
+}
+
+.header .main .header_content .yellow{
+    color: #F0CF1E;
+}
+
+.header .main .header_content h1{
+    font-size: 4rem;
+}
+
+.header .main .header_content hr{
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 30%;
+    border-bottom: none;
+}
+
+
+.info{
+    background-color: #FBCB2D;
+    text-align: center;
+}
+
+.info .info_content{
+    padding-top: 5rem;
+}
+
+.info .info_content .info_button{
+    background-color: black;
+    color: white;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+
+.responsiveCase{
+    display: none;
+}
+
+#wrapper{
+    position: relative;
+    width: 100%;
+    min-height: 47vw;
+    overflow: hidden;
+}
+
+.layer{
+    position: absolute;
+    width: 100vw;
+    min-height: 47vw;
+    overflow: hidden;
+}
+
+.layer .content_wrap{
+    position: absolute;
+    width: 100vw;
+    min-height: 47vw;
+    overflow: hidden;
+}
+
+.layer .content_body{
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: white;
+    
+}
+
+.layer img{
+    position: absolute;
+    width: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.layer h1{
+    font-size: 2rem;
+}
+
+
+
+.bottom{
+    background: #222;
+    z-index: 1;
+}
+
+.bottom .content_body{
+    right: 5%;
+}
+
+
+.bottom h1{
+    color: #FDAB00;
+}
+
+.top{
+    background-color: #eee;
+    color: #222;
+    z-index: 2;
+    width: 50vw;
+}
+
+
+.top .content_body{
+    left: 5%;
+    color: #222;
+
+}
+
+.handle{
+    position: absolute;
+    height:100%;
+    display: block;
+    background-color: #FDAB00;
+    width: 2px;
+    top: 0;
+    left: 50%;
+    z-index: 3;
+}
+
+.skewed .handle{
+    top: 50%;
+    transform: rotate(30deg) translateY(-50%);
+    height: 200%;
+    transform-origin: top;
+}
+
+.skewed .top{
+    transform: skew(-30deg);
+    margin-left: -1000px;
+    width: calc(50vw + 1000px);
+}
+
+.skewed .top .content_wrap{
+    transform: skew(30deg);
+    margin-left: 1000px;
+}
+
+.content{
+    
+}
+
+.content  .content_data{
+    margin-top: 7rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.content  .content_logos{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 7rem;
+    
+
+}
+.content  .content_logos img{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    margin: 0px 25%;
+    text-align: center;
+    
+
+}
+
+
+.content  .content_logos div img{
+    width: 5rem;
+
+}
+
+
+.shop{
+    background-color: #FBCB2D;
+    text-align: center;
+    min-height: 50vh;
+}
+
+.shop .shop_pic{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+
+}
+
+.shop .shopData{
+    padding-bottom: 5rem;
+}
+
+.shop .shopData .shopButton{
+    margin-top: 3rem;
+}
+
+
+.logopic{
+    width: 10rem;
+}
+
+.shopButton{
+    background-color: black;
+    color: white;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background: black;
+    background: -webkit-linear-gradient(59deg, black, black black);
+    background: linear-gradient(59deg, black, black, black);
+    color: white;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  .follow{
+    padding-bottom: 2em;
+  }
+  .mainfooter .footer-pad h4{
+    color: #FECB00;
+  }
+  
+  /*SOCİAL İCONS*/
+  
+  /* footer social icons */
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+  
+
+
+
+@media only screen and (max-width: 500px){
+    body{
+        font-size: 75%;
+    }
+    nav .navbar-brand{
+        margin: 0 0;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .header{
+        background-size: auto;
+    }
+
+    .header .main .header_content h1{
+        font-size: 3rem;
+    }
+
+    .responsiveCase{
+        display: block;
+    }
+
+    .wrapper , .skewed{
+        display: none;
+    }
+
+    .content  .content_logos{
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+    .content  .content_logos img {
+        display: block;
+        margin: auto;
+    }
+
+    .content .content_logos .logo {
+        margin-bottom: 2rem;
+    }
+    .content  .content_data h1{
+        font-size: 2rem ;
+    }
+
+    .footer-pad{
+        padding:1rem;
+    }
+    .footer-middle {
+        padding-top: 4em;
+      }
+      .follow{
+        padding-bottom: 4em;
+      }
+   
+    
+}
+@media all and (min-width: 501px) and (max-width:768px){
+    
+
+    .wrapper , .skewed{
+        display: none;
+    }
+    .responsiveCase{
+        display: block;
+    }
+
+    .content  .content_logos{
+        flex-direction: column;
+        margin-bottom: 4rem;
+    
+    }
+    .content  .content_logos img {
+        display: block;
+        margin: auto;
+    }
+
+    .content .content_logos .logo {
+        margin-bottom: 2rem;
+    }
+    .content  .content_data h1{
+        margin-bottom: 3rem;
+    }
+
+    .info .info_content{
+        padding-top: 4rem ;
+    }
+}
+@media all and (min-width: 768px) and (max-width:1200px){...}
+@media all and (min-width: 1201) {
+    .wrapper {
+        width: 700px;
+        margin: auto;
+    }
+    
+}
+
+
+
+/* skew mobile
+https://www.corsair.com/corsairmedia/sys_master/productcontent/specalpha-Content-5.jpg */
+
+
+/* for content media query
+flex-direction: column; */
